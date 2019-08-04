@@ -580,7 +580,7 @@ class InertManager {
 
     // Comment this out to use programmatic API only.
     console.log('Observing body!');
-    this._observer.observe(this._document.body, {attributes: true, subtree: true, childList: true});
+    // this._observer.observe(this._document.body, {attributes: true, subtree: true, childList: true});
     console.log('Body observed!');
   }
 
